@@ -1,6 +1,6 @@
 
 import { Button } from "@/components/ui/button";
-import { Music, Calendar, Users } from "lucide-react";
+import { Music, Calendar, Users, Instagram, Facebook, Youtube } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -28,20 +28,32 @@ const Hero = () => {
           A collaborative project by seasoned musicians, together in celebration of one of the most enduring & iconic pop bands of all time.
         </p>
 
-        {/* Key Features */}
-        <div className="flex flex-wrap justify-center gap-6 mb-10 text-sm md:text-base">
-          <div className="flex items-center gap-2 glass-effect px-4 py-2 rounded-full">
-            <Music className="w-4 h-4 text-cyan-400" />
-            <span>Sonically Authentic</span>
-          </div>
-          <div className="flex items-center gap-2 glass-effect px-4 py-2 rounded-full">
-            <Users className="w-4 h-4 text-cyan-400" />
-            <span>Seasoned Musicians</span>
-          </div>
-          <div className="flex items-center gap-2 glass-effect px-4 py-2 rounded-full">
-            <Calendar className="w-4 h-4 text-cyan-400" />
-            <span>Available for Booking</span>
-          </div>
+        {/* Social Media Icons */}
+        <div className="flex justify-center gap-6 mb-10">
+          <a 
+            href="https://www.instagram.com/bluesilvertribute/#"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-14 h-14 bg-gradient-to-br from-slate-700/80 to-slate-600/80 rounded-full flex items-center justify-center hover:scale-110 transition-all duration-300 glass-effect group backdrop-blur-sm"
+          >
+            <Instagram className="w-6 h-6 text-gray-300 group-hover:text-cyan-400 transition-colors" />
+          </a>
+          <a 
+            href="https://www.facebook.com/bluesilvertrib"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-14 h-14 bg-gradient-to-br from-slate-700/80 to-slate-600/80 rounded-full flex items-center justify-center hover:scale-110 transition-all duration-300 glass-effect group backdrop-blur-sm"
+          >
+            <Facebook className="w-6 h-6 text-gray-300 group-hover:text-cyan-400 transition-colors" />
+          </a>
+          <a 
+            href="https://www.youtube.com/@BlueSilverTribute"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-14 h-14 bg-gradient-to-br from-slate-700/80 to-slate-600/80 rounded-full flex items-center justify-center hover:scale-110 transition-all duration-300 glass-effect group backdrop-blur-sm"
+          >
+            <Youtube className="w-6 h-6 text-gray-300 group-hover:text-cyan-400 transition-colors" />
+          </a>
         </div>
 
         {/* CTA Buttons */}
