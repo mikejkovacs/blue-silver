@@ -14,7 +14,7 @@ const Hero = () => {
       <div className="relative z-10 text-center max-w-4xl mx-auto px-4 animate-fade-in">
         {/* Logo/Title */}
         <div className="mb-8">
-          <h1 className="font-orbitron font-black text-6xl md:text-8xl mb-4 bg-blue-silver-gradient bg-clip-text text-transparent">
+          <h1 className="font-orbitron font-black text-6xl md:text-8xl mb-4 bg-gradient-to-r from-white via-cyan-200 to-blue-200 bg-clip-text text-transparent drop-shadow-2xl">
             BLUE SILVER
           </h1>
           <div className="h-1 w-32 bg-blue-silver-gradient mx-auto mb-6 rounded-full"></div>
