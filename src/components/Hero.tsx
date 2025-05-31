@@ -34,25 +34,25 @@ const Hero = () => {
             href="https://www.instagram.com/bluesilvertribute/#"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-14 h-14 bg-gradient-to-br from-slate-700/80 to-slate-600/80 rounded-full flex items-center justify-center hover:scale-110 transition-all duration-300 glass-effect group backdrop-blur-sm"
+            className="w-14 h-14 bg-gradient-to-br from-cyan-500/30 to-blue-500/30 rounded-full flex items-center justify-center hover:scale-110 transition-all duration-300 glass-effect group backdrop-blur-sm border border-cyan-400/30"
           >
-            <Instagram className="w-6 h-6 text-gray-300 group-hover:text-cyan-400 transition-colors" />
+            <Instagram className="w-6 h-6 text-cyan-300 group-hover:text-cyan-100 transition-colors" />
           </a>
           <a 
             href="https://www.facebook.com/bluesilvertrib"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-14 h-14 bg-gradient-to-br from-slate-700/80 to-slate-600/80 rounded-full flex items-center justify-center hover:scale-110 transition-all duration-300 glass-effect group backdrop-blur-sm"
+            className="w-14 h-14 bg-gradient-to-br from-cyan-500/30 to-blue-500/30 rounded-full flex items-center justify-center hover:scale-110 transition-all duration-300 glass-effect group backdrop-blur-sm border border-cyan-400/30"
           >
-            <Facebook className="w-6 h-6 text-gray-300 group-hover:text-cyan-400 transition-colors" />
+            <Facebook className="w-6 h-6 text-cyan-300 group-hover:text-cyan-100 transition-colors" />
           </a>
           <a 
             href="https://www.youtube.com/@BlueSilverTribute"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-14 h-14 bg-gradient-to-br from-slate-700/80 to-slate-600/80 rounded-full flex items-center justify-center hover:scale-110 transition-all duration-300 glass-effect group backdrop-blur-sm"
+            className="w-14 h-14 bg-gradient-to-br from-cyan-500/30 to-blue-500/30 rounded-full flex items-center justify-center hover:scale-110 transition-all duration-300 glass-effect group backdrop-blur-sm border border-cyan-400/30"
           >
-            <Youtube className="w-6 h-6 text-gray-300 group-hover:text-cyan-400 transition-colors" />
+            <Youtube className="w-6 h-6 text-cyan-300 group-hover:text-cyan-100 transition-colors" />
           </a>
         </div>
 
