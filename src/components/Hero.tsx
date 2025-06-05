@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Music, Calendar, Users, Instagram, Facebook, Youtube } from "lucide-react";
 
@@ -14,7 +13,7 @@ const Hero = () => {
       <div className="relative z-10 text-center max-w-4xl mx-auto px-4 animate-fade-in">
         {/* Logo/Title */}
         <div className="mb-8">
-          <h1 className="font-orbitron font-black text-6xl md:text-8xl mb-4 text-white drop-shadow-2xl" style={{ textShadow: '3px 3px 0 rgba(0, 0, 0, 0.8), -1px -1px 0 rgba(0, 0, 0, 0.8), 1px -1px 0 rgba(0, 0, 0, 0.8), -1px 1px 0 rgba(0, 0, 0, 0.8), 1px 1px 0 rgba(0, 0, 0, 0.8)' }}>
+          <h1 className="font-orbitron font-black text-6xl md:text-8xl mb-4 text-white drop-shadow-2xl" style={{ textShadow: '3px 3px 0 rgba(0, 0, 0, 0.8), -1px -1px 0 rgba(0, 0, 0, 0.8), 1px -1px 0 rgba(0, 0, 0, 0.8), -1px 1px 0 rgba(0, 0, 0, 0.8), 1px 1px 0 rgba(0, 0, 0, 0.8), 0 0 0 2px #3b82f6, 0 0 0 4px #1d4ed8' }}>
             BLUE SILVER
           </h1>
           <div className="h-1 w-32 bg-blue-silver-gradient mx-auto mb-6 rounded-full"></div>
