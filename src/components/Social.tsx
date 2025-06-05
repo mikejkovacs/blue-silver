@@ -45,12 +45,14 @@ const Social = () => {
             <p className="text-gray-300 mb-6">
               Bring the ultimate Duran Duran experience to your venue or event
             </p>
-            <Button 
-              size="lg"
-              className="bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-600 hover:to-blue-600 text-white px-8 py-3 rounded-full font-semibold transition-all duration-300 hover:scale-105"
-            >
-              Contact for Booking
-            </Button>
+            <a href="mailto:bluesilvertribute@gmail.com">
+              <Button 
+                size="lg"
+                className="bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-600 hover:to-blue-600 text-white px-8 py-3 rounded-full font-semibold transition-all duration-300 hover:scale-105"
+              >
+                Contact for Booking
+              </Button>
+            </a>
           </div>
         </div>
       </div>
