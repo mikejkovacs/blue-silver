@@ -1,4 +1,3 @@
-
 import { Quote } from "lucide-react";
 
 const Testimonials = () => {
@@ -17,10 +16,6 @@ const Testimonials = () => {
     },
     {
       text: "Looking forward to seeing you again...Awesome show!",
-      author: "Fan Review"
-    },
-    {
-      text: "Love, Love, LOVE Blue Silver!!!",
       author: "Fan Review"
     }
   ];
