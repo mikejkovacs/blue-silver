@@ -39,7 +39,7 @@ const SongList = () => {
                   key={index}
                   className="p-3 bg-slate-700/30 rounded-lg hover:bg-slate-600/40 transition-all duration-300 hover:scale-105 cursor-default"
                 >
-                  <p className="text-gray-300 font-medium italic">
+                  <p className="text-gray-300 font-medium">
                     {song}
                   </p>
                 </div>
