@@ -5,9 +5,22 @@ import { Music, Calendar, Users, Instagram, Facebook, Youtube } from "lucide-rea
 const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background with concert lighting effect */}
+      {/* Enhanced background with multiple gradient layers and lighting effects */}
       <div className="absolute inset-0 bg-gradient-to-br from-slate-900 via-purple-900 to-blue-900">
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_50%,rgba(120,119,198,0.3),transparent_50%),radial-gradient(circle_at_80%_20%,rgba(255,255,255,0.1),transparent_50%),radial-gradient(circle_at_40%_80%,rgba(120,119,198,0.2),transparent_50%)]"></div>
+        {/* Primary gradient overlay */}
+        <div className="absolute inset-0 bg-gradient-to-r from-blue-900/80 via-purple-800/70 to-cyan-900/80"></div>
+        
+        {/* Animated spotlight effects */}
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_30%,rgba(59,130,246,0.4),transparent_40%),radial-gradient(circle_at_80%_20%,rgba(168,85,247,0.3),transparent_50%),radial-gradient(circle_at_40%_80%,rgba(6,182,212,0.35),transparent_45%),radial-gradient(circle_at_90%_70%,rgba(139,92,246,0.25),transparent_40%)]"></div>
+        
+        {/* Moving light streaks */}
+        <div className="absolute inset-0 opacity-30">
+          <div className="absolute top-1/4 left-0 w-full h-px bg-gradient-to-r from-transparent via-cyan-400 to-transparent transform rotate-12 animate-pulse"></div>
+          <div className="absolute top-2/3 left-0 w-full h-px bg-gradient-to-r from-transparent via-purple-400 to-transparent transform -rotate-12 animate-pulse" style={{ animationDelay: '1s' }}></div>
+        </div>
+        
+        {/* Subtle particle effect overlay */}
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_10%_20%,rgba(255,255,255,0.05),transparent_20%),radial-gradient(circle_at_90%_80%,rgba(255,255,255,0.03),transparent_15%),radial-gradient(circle_at_30%_90%,rgba(255,255,255,0.04),transparent_18%)]"></div>
       </div>
       
       {/* Content */}
@@ -17,7 +30,7 @@ const Hero = () => {
           <h1 className="font-orbitron font-black text-6xl md:text-8xl mb-4 text-white drop-shadow-2xl" style={{ textShadow: '3px 3px 0 rgba(0, 0, 0, 0.8), -1px -1px 0 rgba(0, 0, 0, 0.8), 1px -1px 0 rgba(0, 0, 0, 0.8), -1px 1px 0 rgba(0, 0, 0, 0.8), 1px 1px 0 rgba(0, 0, 0, 0.8)' }}>
             BLUE SILVER
           </h1>
-          <div className="h-1 w-32 bg-blue-silver-gradient mx-auto mb-6 rounded-full"></div>
+          <div className="h-1 w-32 bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500 mx-auto mb-6 rounded-full shadow-lg shadow-cyan-500/30"></div>
           <p className="font-orbitron text-xl md:text-2xl text-cyan-300 tracking-wider">
             THE DURAN DURAN EXPERIENCE
           </p>
@@ -34,7 +47,7 @@ const Hero = () => {
             href="https://www.instagram.com/bluesilvertribute/#"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-14 h-14 bg-gradient-to-br from-cyan-500/30 to-blue-500/30 rounded-full flex items-center justify-center hover:scale-110 transition-all duration-300 glass-effect group backdrop-blur-sm border border-cyan-400/30"
+            className="w-14 h-14 bg-gradient-to-br from-cyan-500/40 to-blue-600/40 rounded-full flex items-center justify-center hover:scale-110 transition-all duration-300 glass-effect group backdrop-blur-sm border border-cyan-400/40 shadow-lg shadow-cyan-500/20"
           >
             <Instagram className="w-6 h-6 text-cyan-300 group-hover:text-cyan-100 transition-colors" />
           </a>
@@ -42,7 +55,7 @@ const Hero = () => {
             href="https://www.facebook.com/bluesilvertrib"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-14 h-14 bg-gradient-to-br from-cyan-500/30 to-blue-500/30 rounded-full flex items-center justify-center hover:scale-110 transition-all duration-300 glass-effect group backdrop-blur-sm border border-cyan-400/30"
+            className="w-14 h-14 bg-gradient-to-br from-cyan-500/40 to-blue-600/40 rounded-full flex items-center justify-center hover:scale-110 transition-all duration-300 glass-effect group backdrop-blur-sm border border-cyan-400/40 shadow-lg shadow-cyan-500/20"
           >
             <Facebook className="w-6 h-6 text-cyan-300 group-hover:text-cyan-100 transition-colors" />
           </a>
@@ -50,7 +63,7 @@ const Hero = () => {
             href="https://www.youtube.com/@BlueSilverTribute"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-14 h-14 bg-gradient-to-br from-cyan-500/30 to-blue-500/30 rounded-full flex items-center justify-center hover:scale-110 transition-all duration-300 glass-effect group backdrop-blur-sm border border-cyan-400/30"
+            className="w-14 h-14 bg-gradient-to-br from-cyan-500/40 to-blue-600/40 rounded-full flex items-center justify-center hover:scale-110 transition-all duration-300 glass-effect group backdrop-blur-sm border border-cyan-400/40 shadow-lg shadow-cyan-500/20"
           >
             <Youtube className="w-6 h-6 text-cyan-300 group-hover:text-cyan-100 transition-colors" />
           </a>
@@ -61,7 +74,7 @@ const Hero = () => {
           <a href="mailto:bluesilvertribute@gmail.com">
             <Button 
               size="lg" 
-              className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-full font-semibold transition-all duration-300 hover:scale-105"
+              className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-8 py-3 rounded-full font-semibold transition-all duration-300 hover:scale-105 shadow-lg shadow-blue-600/30"
             >
               Book Blue Silver
             </Button>
@@ -69,7 +82,7 @@ const Hero = () => {
           <Button 
             size="lg" 
             variant="outline" 
-            className="border-cyan-400 text-cyan-400 hover:bg-cyan-400 hover:text-slate-900 px-8 py-3 rounded-full font-semibold transition-all duration-300 hover:scale-105"
+            className="border-cyan-400 text-cyan-400 hover:bg-cyan-400 hover:text-slate-900 px-8 py-3 rounded-full font-semibold transition-all duration-300 hover:scale-105 shadow-lg shadow-cyan-400/20"
             onClick={() => document.getElementById('video')?.scrollIntoView({ behavior: 'smooth' })}
           >
             Watch Video
