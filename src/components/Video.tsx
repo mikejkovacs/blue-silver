@@ -22,14 +22,6 @@ const Video = () => {
               />
             </div>
           </div>
-          
-          <Button 
-            size="lg"
-            className="mt-8 bg-cyan-500 hover:bg-cyan-600 text-slate-900 px-8 py-3 rounded-full font-semibold transition-all duration-300 hover:scale-105"
-            onClick={() => window.open('https://www.youtube.com/@BlueSlverDuranDuranExperience', '_blank')}
-          >
-            Watch More Videos
-          </Button>
         </div>
       </div>
     </section>
