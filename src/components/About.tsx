@@ -4,8 +4,8 @@ const About = () => {
     <section className="py-20 bg-gradient-to-b from-slate-900 to-slate-800">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="font-orbitron text-4xl md:text-5xl font-bold mb-8 text-white">
-            The Ultimate Tribute
+          <h2 className="font-inter text-4xl md:text-5xl font-semibold mb-8 text-white">
+            An Unforgettable Experience
           </h2>
           
           <div className="bg-gradient-to-r from-slate-800/50 to-slate-700/50 rounded-2xl p-8 md:p-12 glass-effect">
