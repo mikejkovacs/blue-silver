@@ -1,4 +1,4 @@
-import { Quote, Music, Star, Users } from "lucide-react";
+import { Quote, Star, Users } from "lucide-react";
 
 const Testimonials = () => {
   const testimonials = [
@@ -41,12 +41,10 @@ const Testimonials = () => {
         <div className="max-w-7xl mx-auto">
           {/* Header Section */}
           <div className="text-center mb-16">
-            <div className="flex items-center justify-center gap-4 mb-6">
-              <Music className="w-8 h-8 text-cyan-400 animate-pulse" />
+            <div className="text-center mb-6">
               <h2 className="font-orbitron text-4xl md:text-6xl font-bold text-white text-shimmer leading-tight py-2">
                 A Legendary Experience
               </h2>
-              <Music className="w-8 h-8 text-cyan-400 animate-pulse" />
             </div>
             <div className="h-1 w-64 bg-blue-silver-gradient mx-auto rounded-full mb-4"></div>
           </div>
