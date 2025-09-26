@@ -49,9 +49,6 @@ const Testimonials = () => {
               <Music className="w-8 h-8 text-cyan-400 animate-pulse" />
             </div>
             <div className="h-1 w-64 bg-blue-silver-gradient mx-auto rounded-full mb-4"></div>
-            <p className="text-cyan-300 text-lg font-orbitron tracking-wider">
-              What audiences are saying about Blue Silver
-            </p>
           </div>
           
           {/* Testimonials Grid */}
