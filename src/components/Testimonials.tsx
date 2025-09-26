@@ -137,34 +137,6 @@ const Testimonials = () => {
                 </div>
               </div>
 
-              {/* Fourth testimonial - Bottom Right */}
-              <div 
-                className="md:col-start-2 animate-fade-in"
-                style={{ animationDelay: '0.8s' }}
-              >
-                <div className="group relative h-full">
-                  <div className="bg-gradient-to-br from-cyan-800/80 via-teal-700/70 to-slate-900/50 p-6 rounded-2xl glass-effect backdrop-blur-md border border-cyan-400/20 hover:border-cyan-400/40 hover:scale-105 hover:shadow-2xl hover:shadow-cyan-400/20 transition-all duration-500">
-                    <div className="flex items-center justify-between mb-4">
-                      <Quote className="w-8 h-8 text-cyan-400 group-hover:text-cyan-300 transition-colors duration-300" />
-                      <div className="flex gap-1">
-                        {[...Array(5)].map((_, i) => (
-                          <Star key={i} className="w-4 h-4 text-yellow-400 fill-current" />
-                        ))}
-                      </div>
-                    </div>
-                    <p className="text-gray-200 mb-4 italic leading-relaxed group-hover:text-white transition-colors duration-300">
-                      "Looking forward to seeing you again...Awesome show!"
-                    </p>
-                    <div className="flex items-center justify-between">
-                      <p className="text-cyan-400 font-semibold text-sm group-hover:text-cyan-300 transition-colors duration-300">
-                        — Fan Review
-                      </p>
-                      <Users className="w-5 h-5 text-gray-500 group-hover:text-cyan-400 transition-colors duration-300" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-
             </div>
           </div>
           
