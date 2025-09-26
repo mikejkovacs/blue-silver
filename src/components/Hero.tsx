@@ -22,7 +22,7 @@ const Hero = () => {
             BLUE SILVER
           </h1>
           <div className="h-1 w-32 bg-blue-silver-gradient mx-auto mb-6 rounded-full"></div>
-          <p className="font-orbitron text-xl md:text-2xl text-cyan-300 tracking-wider">
+          <p className="font-orbitron font-bold text-xl md:text-2xl text-cyan-300 tracking-wider">
             THE DURAN DURAN EXPERIENCE
           </p>
         </div>
