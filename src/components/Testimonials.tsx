@@ -19,12 +19,6 @@ const Testimonials = () => {
       author: "Concert Attendee",
       rating: 5,
       size: "medium"
-    },
-    {
-      text: "Looking forward to seeing you again...Awesome show!",
-      author: "Fan Review",
-      rating: 5,
-      size: "small"
     }
   ];
 
@@ -140,14 +134,6 @@ const Testimonials = () => {
             </div>
           </div>
           
-          {/* Bottom Accent */}
-          <div className="text-center mt-16">
-            <div className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-cyan-500/20 to-purple-500/20 rounded-full glass-effect border border-cyan-400/30">
-              <Star className="w-5 h-5 text-yellow-400 fill-current" />
-              <span className="text-white font-orbitron font-semibold">Consistently 5-Star Performances</span>
-              <Star className="w-5 h-5 text-yellow-400 fill-current" />
-            </div>
-          </div>
         </div>
       </div>
     </section>
