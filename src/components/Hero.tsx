@@ -29,7 +29,7 @@ const Hero = () => {
 
         {/* Tagline */}
         <p className="text-lg md:text-xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
-          A collaborative project by seasoned musicians, together in celebration of one of the most enduring & iconic pop bands of all time.
+          An unforgettable experience in celebration of one of the most enduring & iconic pop bands of all time.
         </p>
 
         {/* Social Media Icons */}
