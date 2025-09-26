@@ -43,7 +43,7 @@ const Testimonials = () => {
           <div className="text-center mb-16">
             <div className="flex items-center justify-center gap-4 mb-6">
               <Music className="w-8 h-8 text-cyan-400 animate-pulse" />
-              <h2 className="font-orbitron text-4xl md:text-6xl font-bold text-white text-shimmer">
+              <h2 className="font-orbitron text-4xl md:text-6xl font-bold text-white text-shimmer leading-tight py-2">
                 A Legendary Experience
               </h2>
               <Music className="w-8 h-8 text-cyan-400 animate-pulse" />
