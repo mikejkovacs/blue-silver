@@ -25,7 +25,7 @@ const Testimonials = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <h2 className="font-orbitron text-4xl md:text-5xl font-bold mb-4 text-white text-center">
-            What The Fans Say...
+            A Legendary Experience
           </h2>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-12">
