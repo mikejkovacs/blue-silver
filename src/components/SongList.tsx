@@ -46,7 +46,7 @@ const SongList = () => {
             <h2 className="font-orbitron text-4xl md:text-6xl font-bold text-white text-shimmer leading-tight py-2">
               All The Iconic Hits
             </h2>
-            <div className="h-1 w-64 bg-blue-silver-gradient mx-auto rounded-full mb-6"></div>
+            
           </div>
 
           {/* Featured Songs Section */}
