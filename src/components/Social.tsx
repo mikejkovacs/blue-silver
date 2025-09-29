@@ -18,19 +18,25 @@ const Social = () => {
           {/* Social Media Links */}
           <div className="flex justify-center gap-6 mb-12">
             <a 
-              href="#" 
+              href="https://www.instagram.com/bluesilvertribute/#"
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-16 h-16 bg-gradient-to-br from-slate-700 to-slate-600 rounded-full flex items-center justify-center hover:scale-110 transition-all duration-300 glass-effect group"
             >
               <Instagram className="w-8 h-8 text-gray-300 group-hover:text-cyan-400 transition-colors" />
             </a>
             <a 
-              href="#" 
+              href="https://www.facebook.com/bluesilvertrib"
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-16 h-16 bg-gradient-to-br from-slate-700 to-slate-600 rounded-full flex items-center justify-center hover:scale-110 transition-all duration-300 glass-effect group"
             >
               <Facebook className="w-8 h-8 text-gray-300 group-hover:text-cyan-400 transition-colors" />
             </a>
             <a 
-              href="#" 
+              href="https://www.youtube.com/@BlueSilverTribute"
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-16 h-16 bg-gradient-to-br from-slate-700 to-slate-600 rounded-full flex items-center justify-center hover:scale-110 transition-all duration-300 glass-effect group"
             >
               <Youtube className="w-8 h-8 text-gray-300 group-hover:text-cyan-400 transition-colors" />
