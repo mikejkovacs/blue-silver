@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Music, Calendar, Users, Instagram, Facebook, Youtube } from "lucide-react";
-import concertCrowdHero from "@/assets/hero-bg-optimized.webp";
+import concertCrowdHero from "@/assets/concert-crowd-hero-optimized.webp";
 
 const Hero = () => {
   return (
