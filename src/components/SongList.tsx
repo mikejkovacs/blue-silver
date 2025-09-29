@@ -68,10 +68,6 @@ const SongList = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="flex items-center gap-2">
-                    <Star className="w-4 h-4 text-yellow-400 fill-current" />
-                    <span className="text-yellow-400 text-sm font-medium">Fan Favorite</span>
-                  </div>
                   
                   {/* Hover glow effect */}
                   <div className="absolute inset-0 bg-gradient-to-br from-cyan-400/0 to-purple-400/0 group-hover:from-cyan-400/10 group-hover:to-purple-400/10 rounded-2xl transition-all duration-500 pointer-events-none"></div>
