@@ -5,6 +5,7 @@ import SongList from "@/components/SongList";
 import Testimonials from "@/components/Testimonials";
 import Video from "@/components/Video";
 import Social from "@/components/Social";
+import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
@@ -15,6 +16,7 @@ const Index = () => {
       <About />
       <SongList />
       <Social />
+      <Footer />
     </div>
   );
 };
