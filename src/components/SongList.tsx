@@ -89,44 +89,6 @@ const SongList = () => {
             </div>
           </div>
 
-          {/* All Songs Grid */}
-          <div className="bg-gradient-to-br from-slate-800/50 via-purple-900/40 to-blue-900/30 rounded-3xl p-8 glass-effect backdrop-blur-md border border-white/10">
-            <h3 className="text-2xl font-orbitron font-bold text-white mb-8 text-center">
-              Complete Performance Repertoire
-            </h3>
-            
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
-              {songs.map((song, index) => (
-                <div 
-                  key={index}
-                  className="group relative p-4 bg-gradient-to-r from-slate-700/40 to-purple-700/30 rounded-xl hover:from-slate-600/50 hover:to-purple-600/40 transition-all duration-300 hover:scale-105 cursor-pointer border border-transparent hover:border-cyan-400/30"
-                  style={{ animationDelay: `${index * 0.05}s` }}
-                >
-                  <div className="flex items-center justify-between">
-                    <div className="flex-1">
-                      <p className="text-gray-200 font-medium group-hover:text-white transition-colors duration-300">
-                        {song.title}
-                      </p>
-                      <p className="text-gray-500 text-xs mt-1 group-hover:text-gray-400 transition-colors duration-300">
-                        {song.year}
-                      </p>
-                    </div>
-                    {song.featured && (
-                      <Star className="w-4 h-4 text-yellow-400 fill-current ml-2 opacity-70 group-hover:opacity-100 transition-opacity duration-300" />
-                    )}
-                  </div>
-                </div>
-              ))}
-            </div>
-            
-            <div className="text-center mt-10">
-              <div className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-cyan-500/20 to-purple-500/20 rounded-full glass-effect border border-cyan-400/30">
-                <Music2 className="w-5 h-5 text-cyan-400" />
-                <span className="text-white font-orbitron font-semibold">...and many more Duran Duran classics!</span>
-                <Music2 className="w-5 h-5 text-purple-400" />
-              </div>
-            </div>
-          </div>
 
         </div>
       </div>
