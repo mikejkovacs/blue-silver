@@ -43,13 +43,9 @@ const SongList = () => {
           
           {/* Header Section */}
           <div className="text-center mb-16">
-            <div className="flex items-center justify-center gap-4 mb-6">
-              <Disc3 className="w-10 h-10 text-cyan-400 animate-spin" style={{ animationDuration: '8s' }} />
-              <h2 className="font-orbitron text-4xl md:text-6xl font-bold text-white text-shimmer leading-tight py-2">
-                All The Iconic Hits
-              </h2>
-              <Disc3 className="w-10 h-10 text-purple-400 animate-spin" style={{ animationDuration: '8s', animationDirection: 'reverse' }} />
-            </div>
+            <h2 className="font-orbitron text-4xl md:text-6xl font-bold text-white text-shimmer leading-tight py-2">
+              All The Iconic Hits
+            </h2>
             <div className="h-1 w-64 bg-blue-silver-gradient mx-auto rounded-full mb-6"></div>
             <p className="text-gray-300 text-lg font-orbitron tracking-wider">
               Iconic hits from the Duran Duran catalogue
