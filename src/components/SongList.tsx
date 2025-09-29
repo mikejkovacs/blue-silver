@@ -46,7 +46,7 @@ const SongList = () => {
             <div className="flex items-center justify-center gap-4 mb-6">
               <Disc3 className="w-10 h-10 text-cyan-400 animate-spin" style={{ animationDuration: '8s' }} />
               <h2 className="font-orbitron text-4xl md:text-6xl font-bold text-white text-shimmer leading-tight py-2">
-                The Setlist
+                All The Iconic Hits
               </h2>
               <Disc3 className="w-10 h-10 text-purple-400 animate-spin" style={{ animationDuration: '8s', animationDirection: 'reverse' }} />
             </div>
