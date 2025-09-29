@@ -107,9 +107,6 @@ const SongList = () => {
                       <Star className="w-4 h-4 text-yellow-400 fill-current ml-2 opacity-70 group-hover:opacity-100 transition-opacity duration-300" />
                     )}
                   </div>
-                  
-                  {/* Subtle hover indicator */}
-                  <div className="absolute left-0 top-0 w-1 h-full bg-cyan-400 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-l-xl"></div>
                 </div>
               ))}
             </div>
