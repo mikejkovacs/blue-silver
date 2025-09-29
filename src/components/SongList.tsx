@@ -52,7 +52,7 @@ const SongList = () => {
           {/* Featured Songs Section */}
           <div className="mb-12">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {songs.filter(song => song.featured).map((song, index) => (
+              {songs.map((song, index) => (
                 <div 
                   key={index}
                   className="group relative bg-gradient-to-br from-slate-800/80 via-purple-800/60 to-blue-900/40 p-6 rounded-2xl glass-effect backdrop-blur-md border border-cyan-400/30 hover:border-cyan-400/50 transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-cyan-400/20 animate-fade-in cursor-pointer"
