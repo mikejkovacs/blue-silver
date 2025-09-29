@@ -47,9 +47,6 @@ const SongList = () => {
               All The Iconic Hits
             </h2>
             <div className="h-1 w-64 bg-blue-silver-gradient mx-auto rounded-full mb-6"></div>
-            <p className="text-gray-300 text-lg font-orbitron tracking-wider">
-              Iconic hits from the Duran Duran catalogue
-            </p>
           </div>
 
           {/* Featured Songs Section */}
