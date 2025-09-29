@@ -67,7 +67,6 @@ const SongList = () => {
                         {song.album} • {song.year}
                       </p>
                     </div>
-                    <Play className="w-6 h-6 text-cyan-400 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                   </div>
                   <div className="flex items-center gap-2">
                     <Star className="w-4 h-4 text-yellow-400 fill-current" />
