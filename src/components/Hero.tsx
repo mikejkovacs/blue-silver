@@ -21,7 +21,7 @@ const Hero = () => {
           <h1 className="font-orbitron font-black text-6xl md:text-8xl mb-4 text-white drop-shadow-2xl" style={{ textShadow: '3px 3px 0 rgba(0, 0, 0, 0.8), -1px -1px 0 rgba(0, 0, 0, 0.8), 1px -1px 0 rgba(0, 0, 0, 0.8), -1px 1px 0 rgba(0, 0, 0, 0.8), 1px 1px 0 rgba(0, 0, 0, 0.8), 0 0 0 2px #3b82f6, 0 0 0 4px #1d4ed8' }}>
             BLUE SILVER
           </h1>
-          <div className="h-1 w-32 bg-blue-silver-gradient mx-auto mb-6 rounded-full"></div>
+          
           <p className="font-orbitron font-bold text-xl md:text-2xl text-cyan-300 tracking-wider">
             THE DURAN DURAN EXPERIENCE
           </p>
