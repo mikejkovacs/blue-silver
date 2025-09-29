@@ -73,6 +73,19 @@ const SongList = () => {
                   <div className="absolute inset-0 bg-gradient-to-br from-cyan-400/0 to-purple-400/0 group-hover:from-cyan-400/10 group-hover:to-purple-400/10 rounded-2xl transition-all duration-500 pointer-events-none"></div>
                 </div>
               ))}
+              
+              {/* Additional tile for "And many more..." */}
+              <div 
+                className="group relative bg-gradient-to-br from-slate-800/80 via-purple-800/60 to-blue-900/40 p-6 rounded-2xl glass-effect backdrop-blur-md border border-cyan-400/30 hover:border-cyan-400/50 transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-cyan-400/20 animate-fade-in cursor-pointer flex items-center justify-center text-center"
+                style={{ animationDelay: `${songs.length * 0.1}s` }}
+              >
+                <h4 className="text-white font-semibold text-lg group-hover:text-cyan-300 transition-colors duration-300">
+                  And many more Duran Duran classics.
+                </h4>
+                
+                {/* Hover glow effect */}
+                <div className="absolute inset-0 bg-gradient-to-br from-cyan-400/0 to-purple-400/0 group-hover:from-cyan-400/10 group-hover:to-purple-400/10 rounded-2xl transition-all duration-500 pointer-events-none"></div>
+              </div>
             </div>
           </div>
 
