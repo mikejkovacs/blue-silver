@@ -6,20 +6,20 @@ const Testimonials = () => {
       text: "I close my eyes and I'm at a Duran Duran concert again... Amazing!",
       author: "Fan Review",
       rating: 5,
-      size: "large"
+      size: "large",
     },
     {
       text: "Every Duran Duran fan and any serious 80s fan needs to check them out. It's essential!",
-      author: "@angeloforughi (Photographer)",
+      author: "@angeleforoughi (Photographer)",
       rating: 5,
-      size: "medium"
+      size: "medium",
     },
     {
       text: "You guys transported me back to my childhood...where I grew up listening to Duran Duran.",
       author: "Concert Attendee",
       rating: 5,
-      size: "medium"
-    }
+      size: "medium",
+    },
   ];
 
   return (
@@ -27,10 +27,16 @@ const Testimonials = () => {
       {/* Animated Background Elements */}
       <div className="absolute inset-0">
         <div className="absolute top-20 left-10 w-32 h-32 bg-cyan-400/10 rounded-full blur-xl animate-pulse"></div>
-        <div className="absolute bottom-32 right-16 w-40 h-40 bg-purple-400/10 rounded-full blur-xl animate-pulse" style={{ animationDelay: '1s' }}></div>
-        <div className="absolute top-1/2 left-1/3 w-24 h-24 bg-blue-400/10 rounded-full blur-xl animate-pulse" style={{ animationDelay: '2s' }}></div>
+        <div
+          className="absolute bottom-32 right-16 w-40 h-40 bg-purple-400/10 rounded-full blur-xl animate-pulse"
+          style={{ animationDelay: "1s" }}
+        ></div>
+        <div
+          className="absolute top-1/2 left-1/3 w-24 h-24 bg-blue-400/10 rounded-full blur-xl animate-pulse"
+          style={{ animationDelay: "2s" }}
+        ></div>
       </div>
-      
+
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-7xl mx-auto">
           {/* Header Section */}
@@ -42,16 +48,12 @@ const Testimonials = () => {
             </div>
             <div className="h-1 w-64 bg-blue-silver-gradient mx-auto rounded-full mb-4"></div>
           </div>
-          
+
           {/* Testimonials - Clean Grid Layout */}
           <div className="relative max-w-6xl mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              
               {/* First testimonial - Top Left */}
-              <div 
-                className="animate-fade-in"
-                style={{ animationDelay: '0.2s' }}
-              >
+              <div className="animate-fade-in" style={{ animationDelay: "0.2s" }}>
                 <div className="group relative h-full">
                   <div className="bg-gradient-to-br from-slate-800/80 via-slate-700/70 to-purple-900/50 p-6 rounded-2xl glass-effect backdrop-blur-md border border-cyan-400/20 hover:border-cyan-400/40 hover:scale-105 hover:shadow-2xl hover:shadow-cyan-400/20 transition-all duration-500">
                     <div className="flex items-center justify-between mb-4">
@@ -76,10 +78,7 @@ const Testimonials = () => {
               </div>
 
               {/* Second testimonial - Top Right */}
-              <div 
-                className="animate-fade-in"
-                style={{ animationDelay: '0.4s' }}
-              >
+              <div className="animate-fade-in" style={{ animationDelay: "0.4s" }}>
                 <div className="group relative h-full">
                   <div className="bg-gradient-to-br from-blue-800/80 via-cyan-700/70 to-slate-900/50 p-6 rounded-2xl glass-effect backdrop-blur-md border border-blue-400/20 hover:border-blue-400/40 hover:scale-105 hover:shadow-2xl hover:shadow-blue-400/20 transition-all duration-500">
                     <div className="flex items-center justify-between mb-4">
@@ -104,10 +103,7 @@ const Testimonials = () => {
               </div>
 
               {/* Third testimonial - Bottom - Shorter and Wider */}
-              <div 
-                className="md:col-span-2 animate-fade-in"
-                style={{ animationDelay: '0.6s' }}
-              >
+              <div className="md:col-span-2 animate-fade-in" style={{ animationDelay: "0.6s" }}>
                 <div className="group relative">
                   <div className="bg-gradient-to-br from-purple-800/80 via-blue-700/70 to-slate-900/50 p-6 rounded-2xl glass-effect backdrop-blur-md border border-purple-400/20 hover:border-purple-400/40 hover:scale-105 hover:shadow-2xl hover:shadow-purple-400/20 transition-all duration-500">
                     <div className="flex items-center justify-between mb-4">
@@ -130,10 +126,8 @@ const Testimonials = () => {
                   </div>
                 </div>
               </div>
-
             </div>
           </div>
-          
         </div>
       </div>
     </section>
