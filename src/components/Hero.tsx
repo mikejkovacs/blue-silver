@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Music, Calendar, Users, Instagram, Facebook, Youtube } from "lucide-react";
-import concertCrowdHero from "@/assets/concert-crowd-hero-optimized.webp";
+import heroBand from "@/assets/hero-band.jpg";
 
 const Hero = () => {
   return (
@@ -8,9 +8,9 @@ const Hero = () => {
       {/* Background with concert crowd image */}
       <div className="absolute inset-0">
         <img
-          src={concertCrowdHero}
-          alt="Blue Silver concert crowd hero background"
-          className="absolute inset-0 w-full h-full object-cover"
+          src={heroBand}
+          alt="Blue Silver tribute band performing live on stage"
+          className="absolute inset-0 w-full h-full object-cover object-top"
           loading="eager"
           decoding="async"
           fetchPriority="high"

@@ -1,7 +1,7 @@
 import { createRoot } from 'react-dom/client'
 import App from './App.tsx'
 import './index.css'
-import concertCrowdHero from '@/assets/concert-crowd-hero-optimized.webp'
+import heroBand from '@/assets/hero-band.jpg'
 
 // Preload hero image as early as possible to speed up first paint
 (function preloadHero() {
@@ -9,13 +9,13 @@ import concertCrowdHero from '@/assets/concert-crowd-hero-optimized.webp'
     const link = document.createElement('link');
     link.rel = 'preload';
     link.as = 'image';
-    link.href = concertCrowdHero;
+    link.href = heroBand;
     link.setAttribute('fetchpriority', 'high');
     document.head.appendChild(link);
 
     // Prime the browser cache as a fallback
     const img = new Image();
-    img.src = concertCrowdHero;
+    img.src = heroBand;
   } catch (e) {
     // no-op
   }
