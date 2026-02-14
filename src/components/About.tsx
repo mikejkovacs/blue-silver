@@ -1,17 +1,8 @@
-import aboutBgCollage from "@/assets/about-bg-collage.jpg";
 
 const About = () => {
   return (
-    <section className="py-20 relative overflow-hidden">
-      {/* Background collage */}
-      <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${aboutBgCollage})` }}
-      >
-        <div className="absolute inset-0 bg-gradient-to-b from-slate-900/85 via-slate-800/80 to-slate-900/85"></div>
-      </div>
-      
-      <div className="container mx-auto px-4 relative z-10">
+    <section className="py-20 bg-gradient-to-b from-slate-900 to-slate-800">
+      <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="font-orbitron text-4xl md:text-5xl font-bold mb-8 text-white">
             The Ultimate Tribute
