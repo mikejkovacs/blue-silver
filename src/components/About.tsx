@@ -1,8 +1,23 @@
 
+import aboutMember1 from "@/assets/about-member1.jpg";
+import aboutMember2 from "@/assets/about-member2.jpg";
+import aboutMember3 from "@/assets/about-member3.jpg";
+import aboutMember4 from "@/assets/about-member4.jpg";
+
 const About = () => {
   return (
-    <section className="py-20 bg-gradient-to-b from-slate-900 to-slate-800">
-      <div className="container mx-auto px-4">
+    <section className="relative overflow-hidden">
+      {/* 4 images side by side as background */}
+      <div className="absolute inset-0 flex">
+        <img src={aboutMember1} alt="" className="w-1/4 h-full object-cover" />
+        <img src={aboutMember2} alt="" className="w-1/4 h-full object-cover" />
+        <img src={aboutMember3} alt="" className="w-1/4 h-full object-cover" />
+        <img src={aboutMember4} alt="" className="w-1/4 h-full object-cover" />
+      </div>
+      {/* Dark overlay */}
+      <div className="absolute inset-0 bg-slate-900/70"></div>
+
+      <div className="relative z-10 py-20 container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="font-orbitron text-4xl md:text-5xl font-bold mb-8 text-white">
             The Ultimate Tribute
