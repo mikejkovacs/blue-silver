@@ -32,7 +32,7 @@ const SongList = () => {
       {/* Background with album cover inspiration */}
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${duranAlbumBg})` }}
+        style={{ backgroundImage: `url(${songlistBgCollage})` }}
       >
         <div className="absolute inset-0 bg-gradient-to-br from-slate-900/85 via-purple-900/80 to-blue-900/85"></div>
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(236,72,153,0.15),transparent_50%),radial-gradient(circle_at_70%_80%,rgba(59,130,246,0.15),transparent_50%)]"></div>
