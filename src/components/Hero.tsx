@@ -37,8 +37,16 @@ const Hero = () => {
           An unforgettable experience in celebration of one of the most enduring & iconic pop bands of all time.
         </p>
 
-        {/* Social Media Icons */}
-        <div className="flex justify-center gap-6 mb-10">
+        {/* CTA Buttons & Social Icons - Single Row */}
+        <div className="flex items-center justify-center gap-4 flex-wrap">
+          <a href="mailto:bluesilvertribute@gmail.com">
+            <Button 
+              size="lg" 
+              className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-full font-semibold transition-all duration-300 hover:scale-105"
+            >
+              Book Blue Silver
+            </Button>
+          </a>
           <a 
             href="https://www.instagram.com/bluesilvertribute/#"
             target="_blank"
@@ -62,18 +70,6 @@ const Hero = () => {
             className="w-14 h-14 bg-gradient-to-br from-cyan-500/30 to-blue-500/30 rounded-full flex items-center justify-center hover:scale-110 transition-all duration-300 glass-effect group backdrop-blur-sm border border-cyan-400/30"
           >
             <Youtube className="w-6 h-6 text-cyan-300 group-hover:text-cyan-100 transition-colors" />
-          </a>
-        </div>
-
-        {/* CTA Buttons */}
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <a href="mailto:bluesilvertribute@gmail.com">
-            <Button 
-              size="lg" 
-              className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-full font-semibold transition-all duration-300 hover:scale-105"
-            >
-              Book Blue Silver
-            </Button>
           </a>
           <Button 
             size="lg" 
