@@ -1,6 +1,6 @@
 
 import { Music2, Play, Disc3, Star } from "lucide-react";
-import duranAlbumBg from "@/assets/duran-album-bg.jpg";
+import songlistBgCollage from "@/assets/songlist-bg-collage.jpg";
 
 const SongList = () => {
   const songs = [
