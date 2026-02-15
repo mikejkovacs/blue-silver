@@ -1,7 +1,7 @@
 import { createRoot } from 'react-dom/client'
 import App from './App.tsx'
 import './index.css'
-import heroBand from '@/assets/hero-band-with-logo.jpg'
+import heroBand from '@/assets/hero-band.jpg'
 
 // Preload hero image as early as possible to speed up first paint
 (function preloadHero() {
