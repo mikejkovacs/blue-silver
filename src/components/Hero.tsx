@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Music, Calendar, Users, Instagram, Facebook, Youtube } from "lucide-react";
-import heroBand from "@/assets/hero-band.jpg";
+import heroBand from "@/assets/hero-band-with-logo.jpg";
 
 const Hero = () => {
   return (
